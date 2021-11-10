@@ -16,32 +16,29 @@
 
 <body>
   <div class="container-fluid">
-
-    <div class="row header d-flex align-items-center">
-      <div class="col-6 logo">
-        <h1 class="logo text-primary">CV Industrial Corp.</h1>
-      </div>
-      <div class="col-4">
-        <div class="input-group shadow">
+    <div class="row header">
+      <div class="col d-flex justify-content-between align-items-center flex-wrap">
+        <div>
+          <h1 class="logo text-primary">CV Industrial Corp.</h1>
+        </div>
+        <div id="search" class="input-group shadow">
           <input type="text" class="form-control" placeholder="Item search..." aria-label="Item search"
             aria-describedby="button-addon2">
           <button class="btn btn-secondary" type="button" id="button-addon2" aria-label="search"><i
               class="fas fa-search"></i></button>
         </div>
-      </div>
-      <div class="col d-flex justify-content-center">
-        <button type="button shadow" class="btn btn-secondary" aria-label="shoping cart">
-          <i class="fas fa-shopping-cart fa-lg"></i>
-        </button>
-      </div>
-      <div class="col">
-        <button type="button" class="btn btn-secondary shadow">
-          <i class="login">Login</i>
-        </button>
+        <div>
+          <button type="button" class="btn btn-secondary shadow" aria-label="shoping cart">
+            <i class="fas fa-shopping-cart fa-lg"></i>
+          </button>
+        </div>
+        <div>
+          <button type="button" id="login" class="btn btn-secondary shadow">
+            <i class="login">Login</i>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-
   </div>
 </body>
 

@@ -1,19 +1,130 @@
-$primary: #f15400;
-$secondary: #0b0bd1;
+$primary: #f65802;
+$secondary: #a0f602;
 
 .header {
   background-image: url(../warehouse.webp);
   background-size: cover;
   background-position: 50% 45%;
-  height: 12rem;
-  opacity: 0.65;
+  height: 15rem;
+  // opacity: 0.65;
 }
 
 .logo {
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: 900;
   text-shadow: rgba(0, 0, 0, 0.15) 0 0.5rem 1rem;
   letter-spacing: 0.3rem;
+}
+
+#search {
+  width: 25%;
+}
+
+#login {
+  width: 150px;
+  margin-right: 5px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .logo {
+    letter-spacing: 0.25rem;
+  }
+
+  #login {
+    width: 125px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    height: 12rem;
+  }
+
+  .logo {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 0.25rem;
+  }
+
+  #login {
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    height: 10rem;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0rem;
+  }
+
+  #login {
+    width: 100px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .header {
+    height: 8rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0rem;
+  }
+
+  #search {
+    width: 30%;
+  }
+
+  #login {
+    width: 80px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 575px) {
+  .header {
+    height: 8rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0rem;
+  }
+
+  #search {
+    width: 50%;
+  }
+
+  #login {
+    width: 75px;
+  }
+}
+
+@media (max-width: 439px) {
+  .header {
+    height: 8rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0rem;
+  }
+
+  #search {
+    width: 50%;
+  }
+
+  #login {
+    width: 70px;
+  }
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
