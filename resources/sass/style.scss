@@ -1,12 +1,11 @@
 $primary: #f65802;
 $secondary: #a0f602;
 
-.header {
+.banner {
   background-image: url(../warehouse.webp);
   background-size: cover;
   background-position: 50% 45%;
   height: 15rem;
-  // opacity: 0.65;
 }
 
 .logo {
@@ -14,6 +13,11 @@ $secondary: #a0f602;
   font-weight: 900;
   text-shadow: rgba(0, 0, 0, 0.15) 0 0.5rem 1rem;
   letter-spacing: 0.3rem;
+}
+
+.card-img-top {
+  height: 25rem;
+  object-fit: cover;
 }
 
 #search {
@@ -36,7 +40,7 @@ $secondary: #a0f602;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .header {
+  .banner {
     height: 12rem;
   }
 
@@ -52,7 +56,7 @@ $secondary: #a0f602;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .header {
+  .banner {
     height: 10rem;
   }
 
@@ -68,7 +72,7 @@ $secondary: #a0f602;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .header {
+  .banner {
     height: 8rem;
   }
 
@@ -88,7 +92,7 @@ $secondary: #a0f602;
 }
 
 @media (min-width: 440px) and (max-width: 575px) {
-  .header {
+  .banner {
     height: 8rem;
   }
 
@@ -108,7 +112,7 @@ $secondary: #a0f602;
 }
 
 @media (max-width: 439px) {
-  .header {
+  .banner {
     height: 8rem;
   }
 
