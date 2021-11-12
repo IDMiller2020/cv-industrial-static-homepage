@@ -27,6 +27,10 @@
   margin-right: 5px;
 }
 
+.locations {
+  font-size: smaller;
+}
+
 @media (min-width: 1200px) and (max-width: 1400px) {
   .logo {
     letter-spacing: 0.25rem;
