@@ -29,8 +29,16 @@ $secondary: #a0f602;
   margin-right: 5px;
 }
 
+.card-body {
+  height: 5rem;
+}
+
+.about {
+  font-size: 0.75rem;
+}
+
 .locations {
-  font-size: smaller;
+  font-size: 0.75rem;
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -40,6 +48,14 @@ $secondary: #a0f602;
 
   #login {
     width: 125px;
+  }
+
+  .card-body {
+    height: 7rem;
+  }
+
+  .locations {
+    font-size: 0.7rem;
   }
 }
 
@@ -57,6 +73,14 @@ $secondary: #a0f602;
   #login {
     width: 100px;
   }
+
+  .card-body {
+    height: 7rem;
+  }
+
+  .locations {
+    font-size: 0.7rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -72,6 +96,10 @@ $secondary: #a0f602;
 
   #login {
     width: 100px;
+  }
+
+  .card-body {
+    height: 8rem;
   }
 }
 
@@ -113,6 +141,10 @@ $secondary: #a0f602;
   #login {
     width: 75px;
   }
+
+  .card-body {
+    height: 6rem;
+  }
 }
 
 @media (max-width: 439px) {
@@ -132,6 +164,10 @@ $secondary: #a0f602;
 
   #login {
     width: 70px;
+  }
+
+  .card-body {
+    height: 7rem;
   }
 }
 
