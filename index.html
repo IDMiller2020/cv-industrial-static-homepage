@@ -15,154 +15,187 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <header class="sticky-top">
-      <div class="row banner">
-        <div class="col d-flex justify-content-between align-items-center flex-wrap">
-          <div>
-            <h1 class="logo text-primary">CV Industrial Corp.</h1>
-          </div>
-          <div id="search" class="input-group shadow">
-            <input type="text" class="form-control" placeholder="Item search..." aria-label="Item search"
-              aria-describedby="button-addon2">
-            <button class="btn btn-secondary" type="button" id="button-addon2" aria-label="search"><i
-                class="fas fa-search"></i></button>
-          </div>
-          <div>
-            <button type="button" class="btn btn-secondary shadow" aria-label="shoping cart">
-              <i class="fas fa-shopping-cart fa-lg"></i>
-            </button>
-          </div>
-          <div>
-            <button type="button" id="login" class="btn btn-secondary shadow">
-              <i class="login">Login</i>
-            </button>
-          </div>
+  <header class="container-fluid sticky-top">
+    <div class="row banner">
+      <div class="col d-flex justify-content-between align-items-center flex-wrap">
+        <div>
+          <h1 class="logo text-primary">CV Industrial Corp.</h1>
+        </div>
+        <div id="search" class="input-group shadow">
+          <input type="text" class="form-control" placeholder="Item search..." aria-label="Item search"
+            aria-describedby="button-addon2">
+          <button class="btn btn-secondary" type="button" id="button-addon2" aria-label="search"><i
+              class="fas fa-search"></i></button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-secondary shadow" aria-label="shoping cart">
+            <i class="fas fa-shopping-cart fa-lg"></i>
+          </button>
+        </div>
+        <div>
+          <button type="button" id="login" class="btn btn-secondary shadow">
+            <i class="login">Login</i>
+          </button>
         </div>
       </div>
-      <!-- Start Bootstrap navbar -->
-      <div class="row">
-        <!-- Class "navbar-expand-md causes the navbar to collapse when screen size is medium or smaller." -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- add "show" to the class below to show the collapsed navbar items. -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <!-- When changing pages, add/remove "active" from class to change
+    </div>
+    <!-- Start Bootstrap navbar -->
+    <div class="row">
+      <!-- Class "navbar-expand-md causes the navbar to collapse when screen size is medium or smaller." -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- add "show" to the class below to show the collapsed navbar items. -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <!-- When changing pages, add/remove "active" from class to change
                     active page indicator in navbar. Also aria-curent="page" atribute.
                     Example:
                       <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-                  <a class="nav-link" href="#">Packaging</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Janitorial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Painting Supply</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Fasteners</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Safety PPE</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    All
-                  </a>
-                  <!-- Add "show" to the class below to show the dropdown menue. -->
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Janitorial</a></li>
-                    <li><a class="dropdown-item" href="#">Safety PPE</a></li>
-                    <li><a class="dropdown-item" href="#">Packaging</a></li>
-                    <li><a class="dropdown-item" href="#">Auto</a></li>
-                    <li><a class="dropdown-item" href="#">Fasteners</a></li>
-                    <li><a class="dropdown-item" href="#">Cutting Tools</a></li>
-                    <li><a class="dropdown-item" href="#">Abrasives</a></li>
-                    <li><a class="dropdown-item" href="#">Paint Supply</a></li>
-                    <li><a class="dropdown-item" href="#">Fittings</a></li>
-                    <li><a class="dropdown-item" href="#">Rags and Wipers</a></li>
-                    <li><a class="dropdown-item" href="#">Handcleaner</a></li>
-                    <li><a class="dropdown-item" href="#">Tapes</a></li>
-                    <li><a class="dropdown-item" href="#">MRO</a></li>
-                    <li><a class="dropdown-item" href="#">Welding</a></li>
-                    <li><a class="dropdown-item" href="#">Roofing</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-      <!-- End Bootstrap navbar -->
-    </header>
-    <main class="mt-4">
-      <!-- Start Promoted Items -->
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="resources\soap.jpg" class="card-img-top" alt="soap">
-            <div class="card-body">
-              <h5 class="card-title">Hand Soap (2 bars)</h5>
-              <p class="card-text">$1.99</p>
-            </div>
+                <a class="nav-link" href="#">Packaging</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Janitorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Painting Supply</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fasteners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Safety PPE</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  All
+                </a>
+                <!-- Add "show" to the class below to show the dropdown menue. -->
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Janitorial</a></li>
+                  <li><a class="dropdown-item" href="#">Safety PPE</a></li>
+                  <li><a class="dropdown-item" href="#">Packaging</a></li>
+                  <li><a class="dropdown-item" href="#">Auto</a></li>
+                  <li><a class="dropdown-item" href="#">Fasteners</a></li>
+                  <li><a class="dropdown-item" href="#">Cutting Tools</a></li>
+                  <li><a class="dropdown-item" href="#">Abrasives</a></li>
+                  <li><a class="dropdown-item" href="#">Paint Supply</a></li>
+                  <li><a class="dropdown-item" href="#">Fittings</a></li>
+                  <li><a class="dropdown-item" href="#">Rags and Wipers</a></li>
+                  <li><a class="dropdown-item" href="#">Handcleaner</a></li>
+                  <li><a class="dropdown-item" href="#">Tapes</a></li>
+                  <li><a class="dropdown-item" href="#">MRO</a></li>
+                  <li><a class="dropdown-item" href="#">Welding</a></li>
+                  <li><a class="dropdown-item" href="#">Roofing</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="resources\drill-bits.jpg" class="card-img-top" alt="drill bits">
-            <div class="card-body">
-              <h5 class="card-title">10 pc. Drill Bit Set</h5>
-              <p class="card-text">$15.99</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="resources\zip-ties.jpg" class="card-img-top" alt="zip ties">
-            <div class="card-body">
-              <h5 class="card-title">Zip Ties (Pack of 50, Assorted Sizes and Colors)</h5>
-              <p class="card-text">$4.99</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="resources\work-gloves.jpg" class="card-img-top" alt="work gloves">
-            <div class="card-body">
-              <h5 class="card-title">Work Gloves (4 Pairs)</h5>
-              <p class="card-text">$8.99</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="resources\medical-masks.jpg" class="card-img-top" alt="medical masks">
-            <div class="card-body">
-              <h5 class="card-title">Medical Masks (pack of 25)</h5>
-              <p class="card-text">$9.99</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="resources\shop-rags.jpg" class="card-img-top" alt="shop rags">
-            <div class="card-body">
-              <h5 class="card-title">Shop Rags (pack of 10)</h5>
-              <p class="card-text">$6.99</p>
-            </div>
+      </nav>
+    </div>
+    <!-- End Bootstrap navbar -->
+  </header>
+  <main class="container mt-4">
+    <!-- Start Promoted Items -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="resources\soap.jpg" class="card-img-top" alt="soap">
+          <div class="card-body">
+            <h5 class="card-title">Hand Soap (2 bars)</h5>
+            <p class="card-text">$1.99</p>
           </div>
         </div>
       </div>
-      <!-- End Promoted Items -->
-    </main>
-  </div>
+      <div class="col">
+        <div class="card">
+          <img src="resources\drill-bits.jpg" class="card-img-top" alt="drill bits">
+          <div class="card-body">
+            <h5 class="card-title">10 pc. Drill Bit Set</h5>
+            <p class="card-text">$15.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="resources\zip-ties.jpg" class="card-img-top" alt="zip ties">
+          <div class="card-body">
+            <h5 class="card-title">Zip Ties (Pack of 50, Assorted Sizes and Colors)</h5>
+            <p class="card-text">$4.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="resources\work-gloves.jpg" class="card-img-top" alt="work gloves">
+          <div class="card-body">
+            <h5 class="card-title">Work Gloves (4 Pairs)</h5>
+            <p class="card-text">$8.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="resources\medical-masks.jpg" class="card-img-top" alt="medical masks">
+          <div class="card-body">
+            <h5 class="card-title">Medical Masks (pack of 25)</h5>
+            <p class="card-text">$9.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="resources\shop-rags.jpg" class="card-img-top" alt="shop rags">
+          <div class="card-body">
+            <h5 class="card-title">Shop Rags (pack of 10)</h5>
+            <p class="card-text">$6.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Promoted Items -->
+  </main>
+  <footer class="container-fluid my-4 d-flex flex-row bg-primary">
+    <div class="col-4 about">
+      <p>About CV Industrial
+        CV industrial sells a full line of industrial and construction products including: fasteners, fittings, safety
+        products, janitorial supplies, abrasives, and more. We cater our services to your needs and will do whatever it
+        takes to earn and keep your business. CV Industrial is set appart from many of its competitors due to our
+        employees experience and drive. The average employee experience is 10+ years and we know what it takes to keep a
+        customer;s trust and respect.</p>
+      <p>CV Industrial Differences:
+        Experience between employees throughout the company
+        Access to stocking warehouses all over the United States (low shipping cost)
+        Strong customer base
+        Excellent customer Service
+        Stock all types of industrial & construction supplies
+        Vendor managed inventory
+        Consigned inventory
+        Kitting/custom packaging
+        Extremely competitive pricing</p>
+    </div>
+    <div class="col-4 locations">
+
+    </div>
+    <div class="col-4 email">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Name" aria-label="name">
+      </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Email" aria-label="email">
+      </div>
+      <div class="input-group">
+        <textarea class="form-control" placeholder="Message" aria-label="Message"></textarea>
+      </div>
+      <button type="button" class="btn btn-secondary mt-3">Send</button>
+    </div>
+  </footer>
 </body>
 
 </html>
